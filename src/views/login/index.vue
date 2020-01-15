@@ -16,7 +16,7 @@
         <span class="svg-container">
           <svg-icon icon-class="user" />
         </span>
-        <!-- <el-input
+        <el-input
           ref="username"
           v-model="loginForm.username"
           placeholder="Username"
@@ -24,7 +24,7 @@
           type="text"
           tabindex="1"
           autocomplete="on"
-        />-->
+        />
       </el-form-item>
 
       <el-tooltip v-model="capsTooltip" content="Caps lock is On" placement="right" manual>
